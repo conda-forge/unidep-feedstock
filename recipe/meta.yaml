@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   entry_points:
-    - unidep = unidep:main
+    - unidep = unidep:_cli.main
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
