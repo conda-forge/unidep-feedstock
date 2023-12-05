@@ -14,7 +14,7 @@ build:
   entry_points:
     - unidep = unidep:_cli.main
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -26,6 +26,7 @@ requirements:
     - python >=3.7
     - ruamel.yaml
     - typing-extensions
+    - conda-package-handling
 
 test:
   imports:
