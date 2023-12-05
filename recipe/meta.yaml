@@ -26,7 +26,8 @@ requirements:
     - python >=3.7
     - ruamel.yaml
     - typing-extensions
-    - conda-package-handling
+    - conda-package-handling  # optional requirement on PyPI
+    - conda-lock  # optional requirement on PyPI
 
 test:
   imports:
