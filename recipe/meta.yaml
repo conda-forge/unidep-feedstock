@@ -28,6 +28,7 @@ requirements:
     - typing-extensions
     - conda-package-handling  # optional requirement on PyPI
     - conda-lock  # optional requirement on PyPI
+    - rich-argparse  # optional requirement on PyPI
 
 test:
   imports:
