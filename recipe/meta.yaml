@@ -14,7 +14,7 @@ build:
   entry_points:
     - unidep = unidep:_cli.main
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -28,6 +28,7 @@ requirements:
     - typing-extensions
     - conda-package-handling  # optional requirement on PyPI
     - conda-lock  # optional requirement on PyPI
+    - rich-argparse  # optional requirement on PyPI
 
 test:
   imports:
