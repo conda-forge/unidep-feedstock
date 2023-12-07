@@ -3,7 +3,7 @@ About unidep-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/unidep-feedstock/blob/main/LICENSE.txt)
 
-Home: https://adaptive.readthedocs.io/
+Home: https://github.com/basnijholt/unidep/
 
 Package license: BSD-3-Clause
 
