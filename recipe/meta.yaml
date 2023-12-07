@@ -41,7 +41,7 @@ test:
 
 about:
   summary: Unified Conda and Pip requirements management.
-  home: https://adaptive.readthedocs.io/
+  home: https://github.com/basnijholt/unidep/
   license: BSD-3-Clause
   license_file: LICENSE
 
