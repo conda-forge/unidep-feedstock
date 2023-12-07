@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/unidep-{{ version }}.tar.gz
-  sha256: 4eb9b6cdb04ec06cb4a5f4b27ff7a9ff46007241e39f64b5928e9a2b388bfe1b
+  sha256: 6283662f035c4f7d6bbb4220aed10dd839daf310fe09de1b3fa20c620a538a21
 
 build:
   noarch: python
