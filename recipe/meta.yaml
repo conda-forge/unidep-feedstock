@@ -1,5 +1,5 @@
 {% set name = "unidep" %}
-{% set version = "0.43.0" %}
+{% set version = "0.44.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/unidep-{{ version }}.tar.gz
-  sha256: c7e1b67fc873e1f8a3c7bd49ebfb2b70673563473c2bbf2d02cf1c22394714ba
+  sha256: 47d8e0b5b4343c3584504dc069b79fd56a95286e9d4d25d712596da39839d27b
 
 build:
   noarch: python
   entry_points:
     - unidep = unidep:_cli.main
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
