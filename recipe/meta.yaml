@@ -28,7 +28,6 @@ requirements:
     - typing-extensions
     - packaging
     - tomli
-    - rich-argparse  # optional requirement on PyPI
 
 test:
   imports:
