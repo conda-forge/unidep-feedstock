@@ -27,7 +27,7 @@ requirements:
     - ruamel.yaml
     - typing-extensions
     - packaging
-    - tomli  # [py<3.11]
+    - tomli
 
 test:
   imports:
