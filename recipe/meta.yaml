@@ -14,16 +14,16 @@ build:
   entry_points:
     - unidep = unidep:_cli.main
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - setuptools >=42
     - wheel
     - pip
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - ruamel.yaml
     - typing-extensions
     - packaging
@@ -37,6 +37,7 @@ test:
     - unidep --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   summary: Unified Conda and Pip requirements management.
