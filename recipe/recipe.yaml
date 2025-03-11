@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: unidep
-  version: 0.68.0
+  version: 0.69.0
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/unidep-${{ version }}.tar.gz
-  sha256: eba337d6f5e2145d9cfe8898640e499e760bb4e6ccce5c37c934dd0d8d53ef25
+  sha256: 4acae03dd1a1656eb656c215f3825cc614fb68a4430869b805201043f924d67a
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   python:
