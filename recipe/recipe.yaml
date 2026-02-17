@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: unidep
-  version: 2.0.0
+  version: 2.0.1
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/unidep-${{ version }}.tar.gz
-  sha256: 4f0fde53226c1b868126cf685079abf03357cbe3bf5024074e9c83eb32f1d475
+  sha256: 7f7f0c99a66b16e652c84139bbb83ae724e231f1f00802371d09fdce330f5ba3
 
 build:
   number: 0
@@ -29,10 +29,9 @@ requirements:
   run:
     - python >=${{ python_min }}
     - ruamel.yaml
-    - typing-extensions
     - packaging
     - tomli
-
+    - typing_extensions
 tests:
   - python:
       imports:
