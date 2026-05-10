@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: unidep
-  version: "3.3.0"
+  version: "3.3.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/unidep-${{ version }}.tar.gz
-  sha256: 3b478f6a65489546922ed2cd31cbd23a25dddedf405a146a27316e68fc9d7ccc
+  sha256: ad068a52fa81814a0c95eea03705b0f39b2fccfb24b0737a253a6558ccbe88f7
 
 build:
   number: 0
